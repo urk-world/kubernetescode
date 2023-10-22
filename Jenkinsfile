@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("udayrk/test")      #udayrk is docker userid
+       app = docker.build("udayrk/test")
     }
 
     stage('Test image') {
